@@ -1,0 +1,15 @@
+com\sinyard\demo\service\UserService.class
+com\sinyard\demo\service\RedisService.class
+com\sinyard\demo\SpringBootDemo.class
+com\sinyard\demo\dao\AdminMapper.class
+com\sinyard\demo\dao\UserMapper.class
+com\sinyard\demo\entity\Admin.class
+com\sinyard\demo\controller\HelloWorldController.class
+com\sinyard\demo\config\Swagger2Config.class
+com\sinyard\demo\service\impl\RedisServiceImpl.class
+com\sinyard\demo\controller\UmsMemberController.class
+com\sinyard\demo\controller\userController.class
+com\sinyard\demo\mbg\CommentGenerator.class
+com\sinyard\demo\config\RedisConfig.class
+com\sinyard\demo\entity\TStudent.class
+com\sinyard\demo\dao\TStudentMapper.class

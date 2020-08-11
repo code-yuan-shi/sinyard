@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maven-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0432d01e-dcde-4a3e-bd9a-3c2b1db3a31b" name="Default Changelist" comment="增加了springsecurity">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/SpringBootDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/common/SendNoteUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/component/AliyunSmsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/controller/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/controller/SendNoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/controller/userController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/dao/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/dao/TStudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/entity/TStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/mbg/CommentGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sinyard/demo/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TStudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator/mybatisGeneratorinit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/maven-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/SpringBootDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/common/SendNoteUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/component/AliyunSmsUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/config/MyBatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/controller/HelloWorldController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/controller/SendNoteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/controller/userController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/dao/TStudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/entity/TStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/mbg/CommentGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/service/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinyard/demo/service/impl/RedisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mappers/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mappers/TStudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-generator/mybatisGeneratorinit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/SpringBootDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/controller/HelloWorldController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/controller/UmsMemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/controller/userController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/dao/TStudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/entity/TStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/mbg/CommentGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/service/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/com/sinyard/demo/service/impl/RedisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/mappers/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/mappers/TStudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/mybatis-generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/classes/mybatis-generator/mybatisGeneratorinit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/HikariCP-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/byte-buddy-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/commons-pool2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/druid-1.1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/guava-18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/hibernate-validator-6.0.13.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jackson-core-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jackson-databind-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jackson-datatype-jdk8-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jackson-datatype-jsr310-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jackson-module-parameter-names-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/javassist-3.21.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/lettuce-core-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/log4j-api-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/log4j-to-slf4j-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/mapstruct-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/mybatis-spring-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/mybatis-spring-boot-autoconfigure-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/mybatis-spring-boot-starter-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/netty-buffer-4.1.29.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/netty-codec-4.1.29.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/netty-common-4.1.29.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/netty-handler-4.1.29.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/netty-resolver-4.1.29.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/netty-transport-4.1.29.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/reactive-streams-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/reactor-core-3.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/reflections-0.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-aop-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-beans-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-autoconfigure-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-starter-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-starter-data-redis-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-starter-jdbc-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-starter-json-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-starter-logging-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-starter-tomcat-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-boot-starter-web-2.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-context-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-context-support-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-core-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-data-commons-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-data-keyvalue-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-data-redis-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-expression-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-jcl-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-jdbc-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-oxm-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-tx-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-web-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/spring-webmvc-5.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/springfox-core-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/springfox-schema-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/springfox-spi-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/springfox-spring-web-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/springfox-swagger-common-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/springfox-swagger-ui-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/springfox-swagger2-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/swagger-annotations-1.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/swagger-models-1.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/tomcat-embed-core-9.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/tomcat-embed-el-9.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/tomcat-embed-websocket-9.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/developer/env/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\developer\env\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fiOwn05qxw47EZGDh21lV80n6X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sinyard/Demo/Mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Work\maven-web\src\main\java\com\sinyard\Demo\Mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sinyard.Demo.Service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootDemo">
+    <configuration name="AliyunSmsUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinyard.demo.component.AliyunSmsUtils" />
+      <module name="maven-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinyard.demo.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="maven-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sinyard.demo.SpringBootDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="maven-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_maven-web" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3611" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="maven-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AliyunSmsUtils" />
+      <item itemvalue="Spring Boot.SpringBootDemo" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringBootDemo" />
+        <item itemvalue="Application.AliyunSmsUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1773399" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0432d01e-dcde-4a3e-bd9a-3c2b1db3a31b" name="Default Changelist" comment="" />
+      <created>1596697687038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596697687038</updated>
+      <workItem from="1596697690100" duration="96408000" />
+      <workItem from="1597141341976" duration="453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加了springsecurity" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了springsecurity" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="89" key="#Notifications" timestamp="1597140428104">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="451" y="89" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1597140428104" />
+    <state x="451" y="89" key="#Project_Structure" timestamp="1597141441441">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="451" y="89" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1597141441441" />
+    <state x="0" y="89" key="#Setter_Template" timestamp="1596768734697">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="0" y="89" key="#Setter_Template/0.0.1920.1032@0.0.1920.1032" timestamp="1596768734697" />
+    <state x="409" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596698223511">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="409" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1596698223511" />
+    <state x="576" y="296" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596704274065">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="576" y="296" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1596704274065" />
+    <state x="0" y="126" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1596702302466">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="0" y="126" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1596702302466" />
+    <state x="237" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1596814447718">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="237" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1596814447718" />
+    <state x="144" y="235" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1596772042793">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="144" y="235" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1596772042793" />
+    <state x="479" y="128" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596703436170">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="479" y="128" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1596703436170" />
+    <state x="674" y="344" width="572" height="355" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596704911409">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="674" y="344" width="572" height="355" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1032@0.0.1920.1032" timestamp="1596704911409" />
+    <state x="731" y="359" width="464" height="314" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596783784500">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="731" y="359" width="464" height="314" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1032@0.0.1920.1032" timestamp="1596783784500" />
+    <state x="409" y="36" key="CommitChangelistDialog2" timestamp="1597141688466">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="409" y="36" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1597141688466" />
+    <state x="686" y="173" key="FileChooserDialogImpl" timestamp="1597141518512">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="686" y="173" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1597141518512" />
+    <state width="886" height="3" key="GridCell.Tab.0.bottom" timestamp="1597140635851">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="3" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635851" />
+    <state width="886" height="3" key="GridCell.Tab.0.center" timestamp="1597140635851">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="3" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635851" />
+    <state width="886" height="3" key="GridCell.Tab.0.left" timestamp="1597140635851">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="3" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635851" />
+    <state width="886" height="3" key="GridCell.Tab.0.right" timestamp="1597140635851">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="3" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635851" />
+    <state width="886" height="168" key="GridCell.Tab.1.bottom" timestamp="1597140635848">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="168" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635848" />
+    <state width="886" height="168" key="GridCell.Tab.1.center" timestamp="1597140635848">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="168" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635848" />
+    <state width="886" height="168" key="GridCell.Tab.1.left" timestamp="1597140635848">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="168" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635848" />
+    <state width="886" height="168" key="GridCell.Tab.1.right" timestamp="1597140635848">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="886" height="168" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1597140635848" />
+    <state width="1864" height="321" key="GridCell.Tab.2.bottom" timestamp="1596990894717">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1596990894717" />
+    <state width="1864" height="321" key="GridCell.Tab.2.center" timestamp="1596990894717">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1596990894717" />
+    <state width="1864" height="321" key="GridCell.Tab.2.left" timestamp="1596990894717">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1596990894717" />
+    <state width="1864" height="321" key="GridCell.Tab.2.right" timestamp="1596990894717">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1596990894717" />
+    <state width="1278" height="497" key="GridCell.Tab.3.bottom" timestamp="1596698187638">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1278" height="497" key="GridCell.Tab.3.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1596698187638" />
+    <state width="1278" height="497" key="GridCell.Tab.3.center" timestamp="1596698187638">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1278" height="497" key="GridCell.Tab.3.center/0.0.1920.1032@0.0.1920.1032" timestamp="1596698187638" />
+    <state width="1278" height="497" key="GridCell.Tab.3.left" timestamp="1596698187638">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1278" height="497" key="GridCell.Tab.3.left/0.0.1920.1032@0.0.1920.1032" timestamp="1596698187638" />
+    <state width="1278" height="497" key="GridCell.Tab.3.right" timestamp="1596698187638">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1278" height="497" key="GridCell.Tab.3.right/0.0.1920.1032@0.0.1920.1032" timestamp="1596698187638" />
+    <state x="373" y="84" key="Maven.ArtifactSearchDialog" timestamp="1596703968115">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="373" y="84" key="Maven.ArtifactSearchDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1596703968115" />
+    <state x="273" y="11" key="SettingsEditor" timestamp="1597141520633">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="273" y="11" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1597141520633" />
+    <state x="1094" y="276" key="chooseDestDirectoryDialog" timestamp="1596951106638">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1094" y="276" key="chooseDestDirectoryDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1596951106638" />
+    <state x="691" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597141527339">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="691" y="411" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1597141527339" />
+    <state x="1103" y="213" key="extract.method.dialog" timestamp="1597047938808">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1103" y="213" key="extract.method.dialog/0.0.1920.1032@0.0.1920.1032" timestamp="1597047938808" />
+    <state x="531" y="227" key="run.anything.popup" timestamp="1596992737162">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="531" y="227" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1596992737162" />
+    <state x="451" y="89" key="scopes" timestamp="1596703762639">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="451" y="89" key="scopes/0.0.1920.1032@0.0.1920.1032" timestamp="1596703762639" />
+    <state x="51" y="-23" width="840" height="1032" key="search.everywhere.popup" timestamp="1597140159498">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="51" y="-23" width="840" height="1032" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1597140159498" />
+  </component>
+</project>
