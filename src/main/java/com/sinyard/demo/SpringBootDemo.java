@@ -13,7 +13,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @MapperScan("com.sinyard.demo.dao") //扫描mapper
 @SpringBootApplication
 public class SpringBootDemo {
+
     public static void main(String[] args) {
+        System.setProperty("es.set.netty.runtime.available.processors", "false");
         SpringApplication.run(SpringBootDemo.class,args);
     }
 }

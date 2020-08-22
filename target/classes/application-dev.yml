@@ -16,6 +16,15 @@ spring:
       stat-view-servlet: #访问监控网页的登录用户名和密码
         login-username: druid
         login-password: druid
+
+  #Elasticsearch配置，需要在spring节点下
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-nodes: 127.0.0.1:9300 # es的连接地址及端口号
+      cluster-name: elasticsearch # es集群的名称
+
   redis:
     host: localhost # Redis服务器地址
     database: 0 # Redis数据库索引（默认为0）
@@ -38,8 +47,8 @@ redis:
       authCode: 120 # 验证码超期时间
 
 mybatis:
-#  mapper-locations: classpath:mapper/*Mapper.xml
-   mapper-locations: classpath:dao/*Mapper.xml
+  #  mapper-locations: classpath:mapper/*Mapper.xml
+  mapper-locations: classpath:dao/*Mapper.xml
 
 
 
@@ -49,3 +58,10 @@ logging:
     com:
       example:
         mapper : debug
+
+
+##JWT
+#jwt:
+#  secret: secret
+#  expiration: 7200000
+#  token: Authorization
